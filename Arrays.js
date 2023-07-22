@@ -19,3 +19,17 @@ function at(arr, i) {
   else
     return null;
 }
+
+//implement uniq
+function uniq(arr) {
+  /* Build and return a new array here. */
+  let newArray = [];
+  arr.forEach(element => {
+    if(newArray.includes(element)) {
+    } else {
+      newArray.push(element);
+    }
+  });
+
+  return newArray;
+}
