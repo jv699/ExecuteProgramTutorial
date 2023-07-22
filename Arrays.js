@@ -33,3 +33,8 @@ function uniq(arr) {
 
   return newArray;
 }
+
+//dynamic filling
+function fillDynamically(value, length) {
+  return new Array(length).fill(value);
+}
