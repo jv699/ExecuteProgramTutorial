@@ -55,3 +55,7 @@ function excite(strings) {
 function none(arr, callback) {
   return !arr.some(element => callback(element));
 }
+
+function hasNull(arr) {
+  return arr.some(e => e === null);
+}
