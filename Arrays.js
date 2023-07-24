@@ -44,3 +44,9 @@ function square(nums) {
   const newArray = nums.map(element => element * element);
   return newArray;
 }
+
+//add exclamaiton
+function excite(strings) {
+  const newArray = strings.map(element => element + '!');
+  return newArray;
+}
