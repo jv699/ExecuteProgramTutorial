@@ -38,3 +38,9 @@ function uniq(arr) {
 function fillDynamically(value, length) {
   return new Array(length).fill(value);
 }
+
+//sqaure an array
+function square(nums) {
+  const newArray = nums.map(element => element * element);
+  return newArray;
+}
