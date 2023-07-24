@@ -50,3 +50,8 @@ function excite(strings) {
   const newArray = strings.map(element => element + '!');
   return newArray;
 }
+
+//some none quiz
+function none(arr, callback) {
+  return !arr.some(element => callback(element));
+}
