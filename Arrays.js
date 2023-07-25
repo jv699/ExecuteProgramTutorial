@@ -59,3 +59,8 @@ function none(arr, callback) {
 function hasNull(arr) {
   return arr.some(e => e === null);
 }
+
+//get first element
+function takeFirst(arr, n) {
+  return arr.slice(0, n);
+}
