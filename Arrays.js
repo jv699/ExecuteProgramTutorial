@@ -64,3 +64,8 @@ function hasNull(arr) {
 function takeFirst(arr, n) {
   return arr.slice(0, n);
 }
+
+//copy array
+function copyArray(array) {
+  return array.slice();
+}
