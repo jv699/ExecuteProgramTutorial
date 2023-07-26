@@ -69,3 +69,13 @@ function takeFirst(arr, n) {
 function copyArray(array) {
   return array.slice();
 }
+
+//flat example without flatmap
+const users = [
+  {name: 'Amir', emails: ['amir@example.com', 'amir2@example.com']},
+  {name: 'Betty', emails: ['betty@example.com']}
+];
+users.map(user => user.emails).flat();
+
+//flat example with flatmap
+users.flatMap(user => user.emails)
