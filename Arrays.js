@@ -78,4 +78,6 @@ const users = [
 users.map(user => user.emails).flat();
 
 //flat example with flatmap
-users.flatMap(user => user.emails)
+users.flatMap(user => user.emails);
+
+//free lessons ran out :) (like $40 a month ugh)
